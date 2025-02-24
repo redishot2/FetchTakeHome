@@ -11,20 +11,31 @@
 		FAE762A62D6D306100B5C1EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762A52D6D306100B5C1EA /* ContentView.swift */; };
 		FAE762A82D6D306300B5C1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE762A72D6D306300B5C1EA /* Assets.xcassets */; };
 		FAE762AC2D6D306300B5C1EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE762AB2D6D306300B5C1EA /* Preview Assets.xcassets */; };
-		FAE762B62D6D306300B5C1EA /* FetchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762B52D6D306300B5C1EA /* FetchAppTests.swift */; };
-		FAE762C02D6D306300B5C1EA /* FetchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762BF2D6D306300B5C1EA /* FetchAppUITests.swift */; };
-		FAE762C22D6D306300B5C1EA /* FetchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762C12D6D306300B5C1EA /* FetchAppUITestsLaunchTests.swift */; };
+		FAE762D02D6D311600B5C1EA /* Color+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762CF2D6D311600B5C1EA /* Color+Utilities.swift */; };
+		FAE762D22D6D316700B5C1EA /* ButtonStyle+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762D12D6D316700B5C1EA /* ButtonStyle+Utilities.swift */; };
+		FAE762D52D6D31A300B5C1EA /* DirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762D42D6D31A300B5C1EA /* DirectoryView.swift */; };
+		FAE762D72D6D31CC00B5C1EA /* DirectoryErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762D62D6D31CC00B5C1EA /* DirectoryErrorView.swift */; };
+		FAE762D92D6D31E000B5C1EA /* DirectoryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762D82D6D31E000B5C1EA /* DirectoryCellView.swift */; };
+		FAE762DB2D6D31FC00B5C1EA /* FlavorTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762DA2D6D31FC00B5C1EA /* FlavorTextView.swift */; };
+		FAE762DD2D6D321B00B5C1EA /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762DC2D6D321B00B5C1EA /* BackgroundView.swift */; };
+		FAE762E02D6D324500B5C1EA /* CacheAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762DF2D6D324500B5C1EA /* CacheAsyncImage.swift */; };
+		FAE762E22D6D325C00B5C1EA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762E12D6D325C00B5C1EA /* LoadingView.swift */; };
+		FAE762E42D6D327A00B5C1EA /* ScrollableTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762E32D6D327A00B5C1EA /* ScrollableTopView.swift */; };
+		FAE762E62D6D329F00B5C1EA /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762E52D6D329F00B5C1EA /* Networking.swift */; };
+		FAE762E92D6D32C300B5C1EA /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762E82D6D32C300B5C1EA /* Recipe.swift */; };
+		FAE762EB2D6D32E000B5C1EA /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762EA2D6D32E000B5C1EA /* Sorting.swift */; };
+		FAE762EE2D6D338C00B5C1EA /* SortingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762ED2D6D338C00B5C1EA /* SortingButton.swift */; };
+		FAE762F02D6D33AF00B5C1EA /* URLSelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762EF2D6D33AF00B5C1EA /* URLSelectionButton.swift */; };
+		FAE762F22D6D343A00B5C1EA /* StateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762F12D6D343A00B5C1EA /* StateModel.swift */; };
+		FAE762F82D6D349700B5C1EA /* MockDataValid.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE762F32D6D349700B5C1EA /* MockDataValid.json */; };
+		FAE762F92D6D349700B5C1EA /* MockDataEmpty.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE762F42D6D349700B5C1EA /* MockDataEmpty.json */; };
+		FAE762FA2D6D349700B5C1EA /* DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762F52D6D349700B5C1EA /* DataTests.swift */; };
+		FAE762FB2D6D349700B5C1EA /* SortingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE762F62D6D349700B5C1EA /* SortingTests.swift */; };
+		FAE762FC2D6D349700B5C1EA /* MockDataInvalid.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE762F72D6D349700B5C1EA /* MockDataInvalid.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		FAE762B22D6D306300B5C1EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAE762982D6D306100B5C1EA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAE7629F2D6D306100B5C1EA;
-			remoteInfo = FetchApp;
-		};
-		FAE762BC2D6D306300B5C1EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FAE762982D6D306100B5C1EA /* Project object */;
 			proxyType = 1;
@@ -41,10 +52,27 @@
 		FAE762A92D6D306300B5C1EA /* FetchApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FetchApp.entitlements; sourceTree = "<group>"; };
 		FAE762AB2D6D306300B5C1EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAE762B12D6D306300B5C1EA /* FetchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAE762B52D6D306300B5C1EA /* FetchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAppTests.swift; sourceTree = "<group>"; };
-		FAE762BB2D6D306300B5C1EA /* FetchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAE762BF2D6D306300B5C1EA /* FetchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAppUITests.swift; sourceTree = "<group>"; };
-		FAE762C12D6D306300B5C1EA /* FetchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAE762CF2D6D311600B5C1EA /* Color+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Utilities.swift"; sourceTree = "<group>"; };
+		FAE762D12D6D316700B5C1EA /* ButtonStyle+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ButtonStyle+Utilities.swift"; sourceTree = "<group>"; };
+		FAE762D42D6D31A300B5C1EA /* DirectoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryView.swift; sourceTree = "<group>"; };
+		FAE762D62D6D31CC00B5C1EA /* DirectoryErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryErrorView.swift; sourceTree = "<group>"; };
+		FAE762D82D6D31E000B5C1EA /* DirectoryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryCellView.swift; sourceTree = "<group>"; };
+		FAE762DA2D6D31FC00B5C1EA /* FlavorTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorTextView.swift; sourceTree = "<group>"; };
+		FAE762DC2D6D321B00B5C1EA /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		FAE762DF2D6D324500B5C1EA /* CacheAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsyncImage.swift; sourceTree = "<group>"; };
+		FAE762E12D6D325C00B5C1EA /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		FAE762E32D6D327A00B5C1EA /* ScrollableTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTopView.swift; sourceTree = "<group>"; };
+		FAE762E52D6D329F00B5C1EA /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		FAE762E82D6D32C300B5C1EA /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		FAE762EA2D6D32E000B5C1EA /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
+		FAE762ED2D6D338C00B5C1EA /* SortingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingButton.swift; sourceTree = "<group>"; };
+		FAE762EF2D6D33AF00B5C1EA /* URLSelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSelectionButton.swift; sourceTree = "<group>"; };
+		FAE762F12D6D343A00B5C1EA /* StateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateModel.swift; sourceTree = "<group>"; };
+		FAE762F32D6D349700B5C1EA /* MockDataValid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockDataValid.json; sourceTree = "<group>"; };
+		FAE762F42D6D349700B5C1EA /* MockDataEmpty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockDataEmpty.json; sourceTree = "<group>"; };
+		FAE762F52D6D349700B5C1EA /* DataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTests.swift; sourceTree = "<group>"; };
+		FAE762F62D6D349700B5C1EA /* SortingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortingTests.swift; sourceTree = "<group>"; };
+		FAE762F72D6D349700B5C1EA /* MockDataInvalid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockDataInvalid.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +90,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAE762B82D6D306300B5C1EA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +98,6 @@
 			children = (
 				FAE762A22D6D306100B5C1EA /* FetchApp */,
 				FAE762B42D6D306300B5C1EA /* FetchAppTests */,
-				FAE762BE2D6D306300B5C1EA /* FetchAppUITests */,
 				FAE762A12D6D306100B5C1EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +107,6 @@
 			children = (
 				FAE762A02D6D306100B5C1EA /* FetchApp.app */,
 				FAE762B12D6D306300B5C1EA /* FetchAppTests.xctest */,
-				FAE762BB2D6D306300B5C1EA /* FetchAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +115,9 @@
 			isa = PBXGroup;
 			children = (
 				FAE762A32D6D306100B5C1EA /* FetchAppApp.swift */,
-				FAE762A52D6D306100B5C1EA /* ContentView.swift */,
+				FAE762CE2D6D30FB00B5C1EA /* Utilities */,
+				FAE762D32D6D317300B5C1EA /* Views */,
+				FAE762E72D6D32A400B5C1EA /* Data */,
 				FAE762A72D6D306300B5C1EA /* Assets.xcassets */,
 				FAE762A92D6D306300B5C1EA /* FetchApp.entitlements */,
 				FAE762AA2D6D306300B5C1EA /* Preview Content */,
@@ -115,18 +136,67 @@
 		FAE762B42D6D306300B5C1EA /* FetchAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				FAE762B52D6D306300B5C1EA /* FetchAppTests.swift */,
+				FAE762F52D6D349700B5C1EA /* DataTests.swift */,
+				FAE762F62D6D349700B5C1EA /* SortingTests.swift */,
+				FAE762F42D6D349700B5C1EA /* MockDataEmpty.json */,
+				FAE762F72D6D349700B5C1EA /* MockDataInvalid.json */,
+				FAE762F32D6D349700B5C1EA /* MockDataValid.json */,
 			);
 			path = FetchAppTests;
 			sourceTree = "<group>";
 		};
-		FAE762BE2D6D306300B5C1EA /* FetchAppUITests */ = {
+		FAE762CE2D6D30FB00B5C1EA /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				FAE762BF2D6D306300B5C1EA /* FetchAppUITests.swift */,
-				FAE762C12D6D306300B5C1EA /* FetchAppUITestsLaunchTests.swift */,
+				FAE762CF2D6D311600B5C1EA /* Color+Utilities.swift */,
+				FAE762D12D6D316700B5C1EA /* ButtonStyle+Utilities.swift */,
 			);
-			path = FetchAppUITests;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FAE762D32D6D317300B5C1EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAE762DE2D6D322100B5C1EA /* Content */,
+				FAE762DC2D6D321B00B5C1EA /* BackgroundView.swift */,
+				FAE762DF2D6D324500B5C1EA /* CacheAsyncImage.swift */,
+				FAE762E12D6D325C00B5C1EA /* LoadingView.swift */,
+				FAE762E32D6D327A00B5C1EA /* ScrollableTopView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAE762DE2D6D322100B5C1EA /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAE762EC2D6D337500B5C1EA /* NavBarItems */,
+				FAE762A52D6D306100B5C1EA /* ContentView.swift */,
+				FAE762D42D6D31A300B5C1EA /* DirectoryView.swift */,
+				FAE762D62D6D31CC00B5C1EA /* DirectoryErrorView.swift */,
+				FAE762D82D6D31E000B5C1EA /* DirectoryCellView.swift */,
+				FAE762DA2D6D31FC00B5C1EA /* FlavorTextView.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		FAE762E72D6D32A400B5C1EA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FAE762E52D6D329F00B5C1EA /* Networking.swift */,
+				FAE762F12D6D343A00B5C1EA /* StateModel.swift */,
+				FAE762E82D6D32C300B5C1EA /* Recipe.swift */,
+				FAE762EA2D6D32E000B5C1EA /* Sorting.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FAE762EC2D6D337500B5C1EA /* NavBarItems */ = {
+			isa = PBXGroup;
+			children = (
+				FAE762ED2D6D338C00B5C1EA /* SortingButton.swift */,
+				FAE762EF2D6D33AF00B5C1EA /* URLSelectionButton.swift */,
+			);
+			path = NavBarItems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,24 +237,6 @@
 			productReference = FAE762B12D6D306300B5C1EA /* FetchAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FAE762BA2D6D306300B5C1EA /* FetchAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FAE762CB2D6D306300B5C1EA /* Build configuration list for PBXNativeTarget "FetchAppUITests" */;
-			buildPhases = (
-				FAE762B72D6D306300B5C1EA /* Sources */,
-				FAE762B82D6D306300B5C1EA /* Frameworks */,
-				FAE762B92D6D306300B5C1EA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FAE762BD2D6D306300B5C1EA /* PBXTargetDependency */,
-			);
-			name = FetchAppUITests;
-			productName = FetchAppUITests;
-			productReference = FAE762BB2D6D306300B5C1EA /* FetchAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,10 +251,6 @@
 						CreatedOnToolsVersion = 15.4;
 					};
 					FAE762B02D6D306300B5C1EA = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = FAE7629F2D6D306100B5C1EA;
-					};
-					FAE762BA2D6D306300B5C1EA = {
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = FAE7629F2D6D306100B5C1EA;
 					};
@@ -223,7 +271,6 @@
 			targets = (
 				FAE7629F2D6D306100B5C1EA /* FetchApp */,
 				FAE762B02D6D306300B5C1EA /* FetchAppTests */,
-				FAE762BA2D6D306300B5C1EA /* FetchAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,13 +289,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAE762B92D6D306300B5C1EA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				FAE762FC2D6D349700B5C1EA /* MockDataInvalid.json in Resources */,
+				FAE762F82D6D349700B5C1EA /* MockDataValid.json in Resources */,
+				FAE762F92D6D349700B5C1EA /* MockDataEmpty.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +302,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE762EE2D6D338C00B5C1EA /* SortingButton.swift in Sources */,
+				FAE762DD2D6D321B00B5C1EA /* BackgroundView.swift in Sources */,
+				FAE762E02D6D324500B5C1EA /* CacheAsyncImage.swift in Sources */,
+				FAE762D02D6D311600B5C1EA /* Color+Utilities.swift in Sources */,
+				FAE762F02D6D33AF00B5C1EA /* URLSelectionButton.swift in Sources */,
+				FAE762E62D6D329F00B5C1EA /* Networking.swift in Sources */,
+				FAE762E42D6D327A00B5C1EA /* ScrollableTopView.swift in Sources */,
+				FAE762E22D6D325C00B5C1EA /* LoadingView.swift in Sources */,
+				FAE762DB2D6D31FC00B5C1EA /* FlavorTextView.swift in Sources */,
 				FAE762A62D6D306100B5C1EA /* ContentView.swift in Sources */,
+				FAE762D22D6D316700B5C1EA /* ButtonStyle+Utilities.swift in Sources */,
+				FAE762EB2D6D32E000B5C1EA /* Sorting.swift in Sources */,
+				FAE762E92D6D32C300B5C1EA /* Recipe.swift in Sources */,
+				FAE762F22D6D343A00B5C1EA /* StateModel.swift in Sources */,
+				FAE762D72D6D31CC00B5C1EA /* DirectoryErrorView.swift in Sources */,
+				FAE762D92D6D31E000B5C1EA /* DirectoryCellView.swift in Sources */,
 				FAE762A42D6D306100B5C1EA /* FetchAppApp.swift in Sources */,
+				FAE762D52D6D31A300B5C1EA /* DirectoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +327,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE762B62D6D306300B5C1EA /* FetchAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAE762B72D6D306300B5C1EA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAE762C22D6D306300B5C1EA /* FetchAppUITestsLaunchTests.swift in Sources */,
-				FAE762C02D6D306300B5C1EA /* FetchAppUITests.swift in Sources */,
+				FAE762FB2D6D349700B5C1EA /* SortingTests.swift in Sources */,
+				FAE762FA2D6D349700B5C1EA /* DataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +339,6 @@
 			isa = PBXTargetDependency;
 			target = FAE7629F2D6D306100B5C1EA /* FetchApp */;
 			targetProxy = FAE762B22D6D306300B5C1EA /* PBXContainerItemProxy */;
-		};
-		FAE762BD2D6D306300B5C1EA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FAE7629F2D6D306100B5C1EA /* FetchApp */;
-			targetProxy = FAE762BC2D6D306300B5C1EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -422,6 +468,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FetchApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Natasha;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -432,7 +480,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -440,7 +488,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = natasha.FetchApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,6 +507,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FetchApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Natasha;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -468,7 +519,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -476,7 +527,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = natasha.FetchApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -527,48 +579,6 @@
 			};
 			name = Release;
 		};
-		FAE762CC2D6D306300B5C1EA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = natasha.FetchAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FetchApp;
-			};
-			name = Debug;
-		};
-		FAE762CD2D6D306300B5C1EA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = natasha.FetchAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FetchApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -595,15 +605,6 @@
 			buildConfigurations = (
 				FAE762C92D6D306300B5C1EA /* Debug */,
 				FAE762CA2D6D306300B5C1EA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FAE762CB2D6D306300B5C1EA /* Build configuration list for PBXNativeTarget "FetchAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FAE762CC2D6D306300B5C1EA /* Debug */,
-				FAE762CD2D6D306300B5C1EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
